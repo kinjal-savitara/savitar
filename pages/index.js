@@ -21,7 +21,7 @@ export default function Home() {
     const tour = params.get("tour");
 
     // Map query param to iframe links
-    let url = "https://tours.savitarrealty.in/virtualtour/e6b7ba87"; // default
+    let url = "https://tours.savitarrealty.in/virtualtour/c346bf5c"; // default
     if (tour === "virtual-tour") {
       url = "https://tours.savitarrealty.in/virtualtour/c346bf5c";
     } else if (tour === "virtual-tour") {
@@ -59,7 +59,7 @@ const handleSubmit = (e) => {
         width="100%"
         height="100%"
         allow="vr;xr-spatial-tracking;gyroscope;accelerometer;magnetometer;"
-        title="Kalyan Heritage"
+        title="Swati 18"
         style={{ display: "block", border: "none" }}
       ></iframe>:null}
  
